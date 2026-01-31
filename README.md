@@ -8,6 +8,14 @@ Ce projet est une preuve de concept (POC) démontrant comment effectuer une rech
 vectorielle sur des codes produits UNSPSC en utilisant Pydantic pour la validation des 
 données et LanceDB comme base de données vectorielle.
 
+Que sont les codes UNSPSC?
+
+> Le Code normalisé des produits et services des Nations Unies® (UNSPSC®) est un système de classification mondial des produits et services.
+> Ces codes sont utilisés pour classifier les produits et services : dans le cas des fournisseurs, pour classifier les produits et services de leur entreprise, et dans le cas des membres du personnel, pour classifier les produits et services lors de la publication d'opportunités d'approvisionnement.
+> Pour plus d'informations, consultez cet article de notre Centre d'aide:
+
+https://www.ungm.org/public/unspsc
+
 ## Fonctionnalités
 
 - Chargement de codes UNSPSC depuis un fichier CSV
@@ -58,6 +66,13 @@ La recherche retourne le produit UNSPSC le plus similaire sémantiquement.
 
 This project is a proof of concept (POC) demonstrating how to perform vector search on 
 UNSPSC product codes using Pydantic for data validation and LanceDB as a vector database.
+
+What are the UNSPSC codes?
+> The United Nations Standard Products and Services Code® (UNSPSC®) is a global classification system of products and services.
+> These codes are used to classify products and services: in the case of suppliers, to classify the products and services of their company, and in the case of Staff Members, to classify the products and services when publishing procurement opportunities. 
+> For more information, read this article from our Help Center: 
+
+https://www.ungm.org/public/unspsc
 
 ## Features
 

@@ -10,7 +10,8 @@ class UNSPSCProduct(LanceModel):
     """
     Modèle Pydantic pour représenter un produit UNSPSC avec son vecteur d'embedding.
 
-    Hérite de LanceModel pour permettre l'intégration directe avec LanceDB.
+    LanceModel est une classe de base qui hérite de pydantic.BaseModel et ajoute
+    la capacité de convertir automatiquement le modèle en table LanceDB.
     """
 
     model_config = ConfigDict(populate_by_name=True)
