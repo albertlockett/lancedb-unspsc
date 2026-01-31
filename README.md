@@ -26,7 +26,6 @@ https://www.ungm.org/public/unspsc
 
 ## Prérequis
 
-- Python 3.11+
 - `uv` (gestionnaire de paquets Python)
 
 ## Installation
@@ -52,7 +51,7 @@ Le POC inclut des exemples de recherche:
 - "Macbook Pro"
 - "Cell Phone"
 - "bouffe à chien"
-- "automobile"
+- "Scott towell"
 
 La recherche retourne le produit UNSPSC le plus similaire sémantiquement.
 
@@ -84,7 +83,6 @@ https://www.ungm.org/public/unspsc
 
 ## Requirements
 
-- Python 3.11+
 - `uv` (Python package manager)
 
 ## Installation
